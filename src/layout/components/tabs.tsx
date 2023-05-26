@@ -1,5 +1,4 @@
 import { Tabs, Dropdown, Space } from "antd";
-import { keyHandle } from "@/routes/router-handle";
 type TargetKey = React.MouseEvent | React.KeyboardEvent | string;
 const TabsDemo: React.FC = () => {
   const { layoutStore } = useStore();
